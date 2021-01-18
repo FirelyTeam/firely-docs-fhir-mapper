@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Firely Terminal'
+project = 'FHIR Mapper'
 copyright = '2021, Firely'
 author = 'Firely'
 

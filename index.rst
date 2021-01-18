@@ -1,4 +1,4 @@
-.. Firely Terminal documentation master file, created by
+.. FHIR Mapper documentation master file, created by
    sphinx-quickstart on Fri Jan 15 18:01:03 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -17,12 +17,7 @@ This is a placeholder page.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Firely Terminal Docs:
-
-   InstallingFirelyTerminal
-   CommonScenarios
-   Commands
-   Using-NPM-instead
+   :caption: FHIR Mapper Docs:
 
 Quick Overview
 ~~~~~~~~~~~~~~
