@@ -94,6 +94,8 @@ Release 0.3.5 - 2020-05-26
   - Fix: The source resource type of the initial mapping group is now checked against the provided resource type when calling $transform
   - Fix: Return an exception if it is attempted to create a child of a choice[x] element without passing a concrete type.
   - Fix: Circular 'using' statements could lead to a StackOverflow in Vonk
+  
+.. _mapping_releasenotes_034:
 
 Release 0.3.4 - 2020-03-23
 --------------------------
@@ -103,22 +105,30 @@ Release 0.3.4 - 2020-03-23
   - Fix: "@primitivvalue@" is no longer printed when logging static text within a mapping statement
   - Fix: "status" metadata information were not copied to the StructureMap by $convert if the mapping file included a comment between the first group and the metadata information
 
+.. _mapping_releasenotes_033:
+
 Release 0.3.3 - 2020-03-10
 --------------------------
 
   - Built against Vonk 3.3.0
   - Upgraded .NET API to version 1.6
   - Added support for reading HL7 (C)-CDA XML files natively. See :ref:`fhirmapper_supportedformats`.
-  
+
+.. _mapping_releasenotes_032:
+
 Release 0.3.2 - 2020-03-03
 --------------------------
  
   - Internal release.
 
+.. _mapping_releasenotes_031:
+
 Release 0.3.1 - 2020-02-11
 --------------------------
  
   - Internal release.
+
+.. _mapping_releasenotes_030:
 
 Release 0.3.0 - 2020-02-11
 --------------------------
@@ -133,6 +143,8 @@ Release 0.3.0 - 2020-02-11
  - Feature: Calls to evaluate() which return an empty result set result now in an error message to improve debugging
  - Feature: $convert now uses the name of the StructureMap as its id
 
+.. _mapping_releasenotes_020:
+
 Release 0.2.0 - 2019-11-18
 --------------------------
 
@@ -140,6 +152,8 @@ Release 0.2.0 - 2019-11-18
   - Compatible with Vonk 3.0.0, 3.1.0
   - Upgrade to .NET API 1.4.0
   - Initial public release
+
+.. _mapping_releasenotes_010:
 
 Release 0.1.0 - 2019-11-18
 --------------------------
