@@ -22,7 +22,7 @@ Load the engine
   - <path to firely server>/plugins/vonk.plugin.mapping/<version>/Vonk.Plugin.Mapping.dll
   - <path to firely server>/plugins/vonk.plugin.binarywrapper/<version>/Vonk.Plugin.BinaryWrapper.dll
 
-3. Configure the :ref:`Firely Server settings <firely_server_docs:configure_appsettings>` and check that ``$convert`` is added as a``WholeSystemInteractions`` to support the `convert <http://hl7.org/fhir/resource-operation-convert.html>`_ operation.
+3. Configure the :ref:`<firely_server_docs:configure_appsettings>` and check that ``$convert`` is added as a``WholeSystemInteractions`` to support the `convert <http://hl7.org/fhir/resource-operation-convert.html>`_ operation.
 
 4. ``text/fhir-mapping`` must be added as a MIME type to the ``Vonk.Plugin.BinaryWrapper`` settings. Please add it as a new value to the ``RestrictToMimeTypes`` array.
  
