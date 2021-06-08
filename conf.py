@@ -31,7 +31,8 @@ extensions = ['sphinx.ext.intersphinx']
 
 intersphinx_mapping = {
     'main_docs': ('https://docs.fire.ly', None),
-    }
+    'firely_server_docs': ('https://docs.fire.ly/projects/Firely-Server/', None),
+}
     
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
