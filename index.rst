@@ -1,3 +1,5 @@
+.. _mappingengine_index:
+
 Welcome to the FHIR Mapper's documentation!
 ===========================================
 
